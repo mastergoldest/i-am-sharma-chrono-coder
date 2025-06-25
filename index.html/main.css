@@ -5,10 +5,11 @@ body{
     background-image: linear-gradient(45deg,#0f0c29,#302b63,#24243e);
     display: flex;
     min-height: 100vh;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    animation: fadeIn 2s;
+    animation: fadeIn 4s;
     animation-delay: 0.5;
 
 }
@@ -126,6 +127,39 @@ text-align: center;
     border-radius: 10px;
     border-color: whitesmoke;
 }
+.project{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url("ME.jpg");
+    object-fit: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.toge a{
+    color: whitesmoke;
+}
+.toge{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    border:1px solid whitesmoke;
+    transition: border-color .3s ease-in-out;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    
+    
+}
+.proj:hover{
+    border-color: #007bff;
+    backdrop-filter: contrast(200%) ;
+}
 
 @media(min-width:40rem){
     .contain{
@@ -196,6 +230,10 @@ text-align: center;
    margin: 10px auto;
 }
 
-
+.big{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+}
 
 }
