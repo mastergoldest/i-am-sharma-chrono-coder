@@ -182,7 +182,7 @@ text-align: center;
    .about{
     animation:zoom 2s linear;
     display: grid;
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, auto);
     gap: 10px;
 }
 .grider{
