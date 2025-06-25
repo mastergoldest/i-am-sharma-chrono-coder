@@ -7,7 +7,6 @@ body{
     min-height: 100vh;
     width: 100%;
     flex-direction: column;
-    align-items: center;
     background-size: cover;
     animation: fadeIn 4s;
     animation-delay: 0.5;
@@ -160,6 +159,67 @@ text-align: center;
     border-color: #007bff;
     backdrop-filter: contrast(200%) ;
 }
+.lasts{
+    display: flex;
+}
+.lastsect{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0 0 10px 0;
+   
+}
+.lastsect label{
+    font-size: 1.5rem;
+    padding: 0 0 0 10px;
+    font-family: "Ancizar Sans" , sans-serif;
+}
+input:not([type="checkbox"]){
+    width: 100%;
+    border: none;
+    padding: 20px;
+}
+input:not([type="checkbox"]):hover,
+input:not([type="checkbox"]):active
+{
+    border: 1px solid gray;
+    background: none;
+    color: white;
+    
+}
+
+.makethem{
+    display: flex;
+}
+.over{
+    text-align: center;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 5px 0;
+}
+button{
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    height: 40px;
+}
+button:hover{
+    background: linear-gradient(45deg,#0f0c29,#302b63,#24243e);
+    border-radius: 50px;
+    color: whitesmoke;
+}
+.label:hover,
+.labe:active{
+    
+        border: 1px solid gray;
+        background: none;
+        color: white;
+        
+    }
+    
 
 @media(min-width:40rem){
     .contain{
@@ -234,6 +294,22 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 5px;
+}
+.lastsect{
+    border-radius: 10px;
+    border:none;
+    backdrop-filter: brightness(150%);
+    padding: 30px;
+}
+.lasts{
+    display: flex;
+    margin: 0 auto;
+}
+input:not([type="checkbox"]){
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 }
