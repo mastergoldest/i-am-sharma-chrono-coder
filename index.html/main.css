@@ -176,7 +176,7 @@ text-align: center;
     font-family: "Ancizar Sans" , sans-serif;
 }
 input:not([type="checkbox"]){
-    width: 100%;
+    width: 90%;
     border: none;
     padding: 20px;
 }
@@ -191,6 +191,8 @@ input:not([type="checkbox"]):active
 
 .makethem{
     display: flex;
+    flex-direction: row;
+    margin: 5px 0 0 0 ;
 }
 .over{
     text-align: center;
