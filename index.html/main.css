@@ -24,9 +24,11 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    position: sticky;
+    position: fixed;
     background-color: #0f0c29;
     width: 100%;
+    z-index: 2;
+
 }
 h1 a{
     color: whitesmoke;
@@ -34,17 +36,19 @@ h1 a{
 }
 .navigation{
     align-items: center;
-    padding:10px;
+    padding:0px 25px 0px 25px;
     display: flex;
     flex-direction: row;
     color: whitesmoke;
     justify-content: space-between;
+
 }
 .hamburger{
     font-size: 2rem;
 }
 .contain{
-    margin-bottom: 200px;
+    margin:200px  0px 0px 0px;
+    
 }
 .bigscreen{
     display: none;
@@ -109,7 +113,7 @@ text-align: center;
     background:linear-gradient(to top,#21295c,#3a3d73,#434a8d);
     color: whitesmoke;
     scroll-margin: 50px;
-    padding: 10px;
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -161,14 +165,15 @@ text-align: center;
 }
 .lasts{
     display: flex;
+    padding: 10px 30px;
 }
 .lastsect{
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    width: 100%;
     justify-content: center;
     padding: 0 0 10px 0;
+    
    
 }
 .lastsect label{
