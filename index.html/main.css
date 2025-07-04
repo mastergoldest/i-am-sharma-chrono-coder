@@ -232,7 +232,23 @@ button:hover{
         color: white;
         
     }
-    
+    footer{
+      background: #0f0c29;
+         }
+    .lastdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: whitesmoke;
+        padding: 0 20px 10px 20px ;
+    }
+    .lastdiv2 a{
+        color: whitesmoke;
+        font-size: .8rem;
+    }
+    .lastdiv4{
+        display: none;
+    }
 
 @media(min-width:40rem){
     .contain{
@@ -323,6 +339,32 @@ input:not([type="checkbox"]){
     border: none;
     border-radius: 10px;
     padding: 20px;
+}
+.lastdiv{
+    display: none;
+}
+.lastdiv4{
+    display: block;
+    padding: 0px 25px;
+}
+.gr4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.lastdiv3  a{
+    color: whitesmoke;
+}
+.lastdiv5{
+    display: flex;
+    flex-direction: row;
+   
+}
+.lastdiv5 a{
+    font-size: .8rem;
+    margin: 0px 0px 0px 15px;
+    color: whitesmoke;
 }
 
 }
