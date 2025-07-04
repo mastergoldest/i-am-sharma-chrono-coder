@@ -113,7 +113,6 @@ text-align: center;
     background:linear-gradient(to top,#21295c,#3a3d73,#434a8d);
     color: whitesmoke;
     scroll-margin: 50px;
-    padding: 10px 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -240,7 +239,7 @@ button:hover{
         flex-direction: row;
         justify-content: space-between;
         color: whitesmoke;
-        padding: 0 20px 10px 20px ;
+        padding: 0 20px;
     }
     .lastdiv2 a{
         color: whitesmoke;
